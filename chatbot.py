@@ -5,6 +5,9 @@ from translatepy import Translator
 import requests
 from bs4 import BeautifulSoup
 import random
+from dotenv import load_dotenv
+
+load_dotenv()
 
 supported_lang = {
     'en': 'English',
