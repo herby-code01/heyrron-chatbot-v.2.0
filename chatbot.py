@@ -310,5 +310,4 @@ class HeyrronChatbot:
             self.loop()
         
 if __name__ == "__main__":
-    chatbot = HeyrronChatbot()
-    chatbot.run()
+    HeyrronChatbot().run()
